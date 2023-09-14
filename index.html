@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phathizwe's website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ecea222478.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">Phathizwe.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web developer</p>
+                <h1>Hi, I'am <span>Phathizwe</span><br>from mahikeng</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- about section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/IMG-7273.jpg" alt="">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur omnis cupiditate, ipsum eum consectetur tempore. Laudantium provident aspernatur magni, vel fuga minima amet ducimus natus tempora? Unde eligendi quibusdam consequatur.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>WEb design</span><br>Designing web/app interfaces</li>
+                            <li><span>WEb design</span><br>Designing web/app interfaces</li>
+                            <li><span>WEb design</span><br>Designing web/app interfaces</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>WEb design</span><br>Designing web/app interfaces</li>
+                            <li><span>WEb design</span><br>Designing web/app interfaces</li>
+                            <li><span>WEb design</span><br>Designing web/app interfaces</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>WEb design</span><br>Designing web/app interfaces</li>
+                            <li><span>WEb design</span><br>Designing web/app interfaces</li>
+                            <li><span>WEb design</span><br>Designing web/app interfaces</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae sequi aut cupiditate vel possimus, error magni recusandae omnis numquam amet perspiciatis porro ducimus sapiente, voluptas debitis consectetur ex minima labore!</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae sequi aut cupiditate vel possimus, error magni recusandae omnis numquam amet perspiciatis porro ducimus sapiente, voluptas debitis consectetur ex minima labore!</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae sequi aut cupiditate vel possimus, error magni recusandae omnis numquam amet perspiciatis porro ducimus sapiente, voluptas debitis consectetur ex minima labore!</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- portfolio -->
+
+    <div id="portfolio">
+        <div class="container">
+            <div class="subtittle">
+                <h1 class="sub-title">My work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="/images/IMG-8444.jpg" alt="">
+                        <div class="layer">
+                            <h3>Social Media</h3>
+                            <p>The app connects you to the talented people around the world. Download it from playstore. </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="/images/IMG-8444.jpg" alt="">
+                        <div class="layer">
+                            <h3>Social Media</h3>
+                            <p>The app connects you to the talented people around the world. Download it from playstore. </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="/images/IMG-8444.jpg" alt="">
+                        <div class="layer">
+                            <h3>Social Media</h3>
+                            <p>The app connects you to the talented people around the world. Download it from playstore. </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a class="btn" href="#">See more</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> phathizwe808@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 0822255793</p>
+                    <div class="social-icons">
+                        <a href="google.com"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="google.com"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="google.com"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="google.com"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="/images/IMG-7299.jpg" download class="btn btn-2">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="contact-form" method="POST" action="https://script.google.com/macros/s/AKfycbynQOzYqQCOGba2wpZ4pMN3BYLaiIUr5xMwim9sX7t9reMTZ-lfydrLupdN-QmdEUV7XQ/exec">
+                        <input type="text" name="Name" placeholder="your name" required>
+                        <input type="email" name="Email" placeholder="your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn-2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copywright">
+            <p>Developed by Phathizwe</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
